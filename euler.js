@@ -9,9 +9,17 @@ The sum of these multiples is 23.
 
 3. Allow the user to enter the parameters via text box(es)
 and alert them to the output
+
+
+Demonstrate some DOM manipulation in the exercise.
+for example changing the value of a result div, hiding inputs once the button is clicked ...
+
+
 */
 alert("Loaded Euler JS");
 a=3;
 b=5;
 n=1000;
+
+
 
