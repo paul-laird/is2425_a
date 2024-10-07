@@ -43,7 +43,7 @@ let n=1000;
 let f1=(a,b,n) => {
     let total=0
     for(let i=0; i<n; i++){
-        if (a%i==0 || b%i==0){
+        if (i%a==0 || i%b==0){
             total+=i;
         }
     }
