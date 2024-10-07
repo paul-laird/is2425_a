@@ -33,9 +33,9 @@ l is a list of integers
 find the sum of all the multiples of elements of a in l
 */
 alert("Loaded Euler JS");
-a=3;
-b=5;
-n=1000;
+let a=3;
+let b=5;
+let n=1000;
 
 //Create a function to find the sum of all the multiples of a or b below n.
 //(a,b,n) are function parameters
@@ -50,4 +50,4 @@ let f1=(a,b,n) => {
     return total;
 }
 
-alert(f1(a,b,n));
+alert(f1(3,5,1000));
