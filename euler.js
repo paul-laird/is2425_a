@@ -37,5 +37,17 @@ a=3;
 b=5;
 n=1000;
 
+//Create a function to find the sum of all the multiples of a or b below n.
+//(a,b,n) are function parameters
 
+let f1=(a,b,n) => {
+    let total=0
+    for(let i=0; i<n; i++){
+        if (a%i==0 || b%i==0){
+            total+=i;
+        }
+    }
+    return total;
+}
 
+alert(f1(a,b,n));
